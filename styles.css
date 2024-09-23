@@ -1,12 +1,26 @@
 body {
-    background-color: #323232;
+    background-color: #1f1f1f;
 }
-h1{
+
+.title {
+    height: 64px;
+    line-height: 64px;
+    margin-bottom: 8px;
+    box-shadow: 0px 5px 5px #413446c4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #56455c;
+}
+
+#titleword {
+    margin: 0;
+    text-align: center;
+    vertical-align: center;
     font-family: Tahoma, sans-serif;
     color: #c97be0
 }
 
-p{
-    font-family: Helvetica, sans-serif;
-    color: #f0f0f0
+h2 { 
+    font-family: Tahoma, sans-serif;
+    color: #f0f0f0;
 }
