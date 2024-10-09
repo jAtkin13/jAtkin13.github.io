@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "AtkinHyper";
+    src: url("fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2");
+}
+@font-face {
+    font-family: AtkinHyperBold;
+    src: url("fonts/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2");
+}
 body {
     background-color: #1f1f1f;
 }
@@ -6,21 +14,56 @@ body {
     height: 64px;
     line-height: 64px;
     margin-bottom: 8px;
-    box-shadow: 0 5px 5px #413446c4;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #56455c;
+    box-shadow: 0 5px 5px rgba(30, 25, 32, 0.77);
+    border-radius: 20px;
+    background-color: #362b39;
 }
 
 #titleword {
     margin: 0;
     text-align: center;
     vertical-align: center;
-    font-family: Tahoma, sans-serif;
-    color: #c97be0
+    font-family: AtkinHyperBold, Tahoma, sans-serif;
+    color: #BC00E0;
+    <!--c97be0 -->
 }
 
 h2 { 
-    font-family: Tahoma, sans-serif;
+    font-family: AtkinHyper, Tahoma, sans-serif;
     color: #f0f0f0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 30%;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #4a1c53;
+    border-radius: 20px;
+
+    font-family: AtkinHyper, Tahoma, sans-serif;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.project a:link {
+    color: #e78bfd;
+}
+
+.project a:visited{
+    color: #9672bc;
+}
+
+.project a:hover{
+    color: #E0009E;
+}
+
+.contact {
 }
