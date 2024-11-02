@@ -33,6 +33,18 @@ h2 {
     color: #f0f0f0;
 }
 
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+
+    font-family: AtkinHyper, Tahoma, sans-serif;
+    color: #f0f0f0;
+    text-align: center;
+}
+
 .projects {
     display: flex;
     flex-direction: row;
